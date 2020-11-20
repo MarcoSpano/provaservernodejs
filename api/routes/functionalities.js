@@ -5,7 +5,7 @@ var fs = require('fs');
 
 const functionalitiesRoutes = express.Router();
 const Functionalities = require('../models/functionalities');
-const verifyModules = require("../middleware/verify.js");
+// const verifyModules = require("../middleware/verify.js");
 var dir = path.join('../', 'images');
 
 // const fileFilter = (req, file, cb) => {

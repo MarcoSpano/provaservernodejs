@@ -16,8 +16,8 @@ app.use(cors(corsOptions));
 const functionalitiesRoutes = require('./api/routes/functionalities');
 
 //initialization of the database connection
-const Database = require('./api/util/db');
-Database.createPool();
+// const Database = require('./api/util/db');
+// Database.createPool();
 
 app.use('/api/v1/functionalities', functionalitiesRoutes);
 
